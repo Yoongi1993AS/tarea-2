@@ -1,0 +1,236 @@
+.robot {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 50px auto;
+}
+.head {
+    position: absolute;
+    top: 0;
+    left: 75px;
+    width: 150px;
+    height: 150px;
+    background-color: #F4A460;
+}
+.o1 {
+    position: absolute;
+    background-color: rgb(255, 127, 227);
+    width: 40px;
+    height: 40px;
+    left: -35px;
+    border-radius: 20px;
+    bottom: 70px;
+}
+.o2 {
+    position: absolute;
+    background-color: rgb(255, 127, 227);
+    width: 40px;
+    height: 40px;
+    left: 145px;
+    border-radius: 20px;
+    bottom: 70px;
+}
+.eye {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #9370DB;
+    border-radius: 30px;
+}
+.eye-left {
+    top: 30px;
+    left: 30px;
+    position: relative;
+}
+.cir {
+    background-color: black;
+    position: absolute; 
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 23px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.eye-right {
+    top: -10px;
+    right: -80px;
+    position: relative;
+}
+.cir2 {
+    background-color: black;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.antenna {
+    position: absolute;
+    top: -31px;
+    left: 72px;
+    width: 5px;
+    height: 32px;
+    background-color: #90EE90;
+}
+.ap {
+    background-color: rgb(255, 127, 227);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -50px;
+    left: 65px;
+    border-radius: 20px;
+}
+.mouth {
+    position: absolute;
+    bottom: 18px;
+    left: 30px;
+    width: 100px;
+    height: 22px;
+    background-color: #9370DB;
+}
+.mc {
+    position: absolute;
+    background-color: rgb(147, 237, 237);
+    width: 70px;
+    height: 8px;
+    left: 15px;
+    bottom: 7px;
+}
+.nose {
+    position: absolute;
+    background-color: antiquewhite;
+    width: 25px;
+    height: 25px;
+    left: 63px;
+    bottom: 50px;
+    border-radius: 30px;
+}
+.c {
+    background-color: #F4A460;
+    height: 20px;
+    width: 50px;
+    top: 150px;
+    left: 50px;
+    position: absolute;
+}
+.body {
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    width: 200px;
+    height: 150px;
+    background-color: #F4A460;
+}
+.screen {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 150px;
+    height: 50px;
+    background-color: #90EE90;
+}
+.screen2 {
+    position: absolute;
+    top: 85px;
+    left: 25px;
+    width: 150px;
+    height: 50px;
+    background-color: #90EE90;
+}
+.arm {
+    position: absolute;
+    width: 17px;
+    height: 130px;
+    background-color: #9370DB;
+}
+.arm1 {
+    position: absolute;
+    height: 13px;
+    width: 50px;
+    background-color: #9370DB;
+    top: 140px;
+    left: -100px;
+    border-radius: 15px;
+    transform: rotate(8deg);
+}
+.arm2 {
+    position: absolute;
+    height: 13px;
+    width: 50px;
+    background-color: #9370DB;
+    top: 120px;
+    left: -70px;
+    border-radius: 15px;
+    transform: rotate(110deg);
+}
+.arm3{
+    position: absolute;
+    height: 13px;
+    width: 50px;
+    left: 348px;
+    top: 141px;
+    border-radius: 15px;
+    transform: rotate(-7deg);
+    background-color: #9370DB;
+}
+.arm4 {
+    position: absolute;
+    height: 13px;
+    width: 50px;
+    left: 330px;
+    top: 120px;
+    border-radius: 15px;
+    background-color: #9370DB;
+    transform: rotate(100deg);
+}
+.arm-left {
+    top: 120px;
+    left: -9px;
+    transform: rotate(125deg);
+    border-radius: 10px;
+}
+.arm-right {
+    top: 120px;
+    right: -9px;
+    transform: rotate(-125deg);
+    border-radius: 10px;
+}
+.body2 {
+    background-color: #F4A460;
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    width: 240px;
+    height: 150px;
+    margin-top: 80px;
+}
+.leg {
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 80px;
+    background-color: #90EE90;
+}
+.leg-left {
+    left: 70px;
+    top: 350px;
+    height: 100px;
+}
+.leg-middle {
+    left: 135px;
+    top: 350px;
+    height: 100px;
+}
+.leg-right {
+    left: 200px;
+    top: 350px;
+    height: 100px;
+}
+.title {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
